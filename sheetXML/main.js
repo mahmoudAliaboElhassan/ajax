@@ -52,7 +52,7 @@ function handleUl() {
     while (child) {
       console.log(child);
       if (child.nodeType === 1) {
-        li.innerHTML += child.firstChild.textContent + " ";
+        li.innerHTML += child.textContent + " ";
       }
       child = child.nextSibling;
     }
