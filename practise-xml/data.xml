@@ -1,0 +1,17 @@
+<products>
+  <product>
+    <title>Product A</title>
+    <cost>15.50</cost>
+    <details>Details for Product A</details>
+  </product>
+  <product>
+    <title>Product B</title>
+    <cost>25.00</cost>
+    <details>Details for Product B</details>
+  </product>
+  <product>
+    <title>Product C</title>
+    <cost>35.75</cost>
+    <details>Details for Product C</details>
+  </product>
+</products>
