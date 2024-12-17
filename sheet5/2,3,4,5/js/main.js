@@ -26,4 +26,40 @@ $(document).ready(function () {
     color: "blue",
     border: "1px solid black",
   });
+
+  $("#big").click(function () {
+    $("#text").css("font-size", "30px");
+  });
+
+  $("#medium").click(function () {
+    $("#text").css("font-size", "20px");
+  });
+
+  $("#small").click(function () {
+    $("#text").css("font-size", "12px");
+  });
+
+  // Change text color
+  $(".red").click(function () {
+    $("#text").css("color", "red");
+  });
+
+  $(".blue").click(function () {
+    $("#text").css("color", "blue");
+  });
+
+  $(".green").click(function () {
+    $("#text").css("color", "green");
+  });
+
+  // Animate text
+  $("#animate").click(function () {
+    $("#text").animate(
+      {
+        fontSize: "30px",
+        opacity: 0.5,
+      },
+      1000
+    );
+  });
 });

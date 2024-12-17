@@ -8,6 +8,22 @@
       td {
         border: 1px solid white;
       }
+      .color-box {
+        width: 50px;
+        height: 50px;
+        display: inline-block;
+        margin: 5px;
+        cursor: pointer;
+      }
+      .red {
+        background-color: red;
+      }
+      .blue {
+        background-color: blue;
+      }
+      .green {
+        background-color: green;
+      }
     </style>
   </head>
   <body>
@@ -56,6 +72,25 @@
         </tr>
       </tbody>
     </table>
+    <!-- Task 5 -->
+    <h1>Text Styling</h1>
+    <p id="text">Hello World</p>
+
+    <div>
+      <button id="big">Big</button>
+      <button id="medium">Medium</button>
+      <button id="small">Small</button>
+    </div>
+
+    <h3>Change Color</h3>
+    <div>
+      <div class="color-box red"></div>
+      <div class="color-box blue"></div>
+      <div class="color-box green"></div>
+    </div>
+
+    <h3>Animation</h3>
+    <button id="animate">Animate</button>
     <script src="js/jquery.js"></script>
     <script src="js/main.js"></script>
   </body>
